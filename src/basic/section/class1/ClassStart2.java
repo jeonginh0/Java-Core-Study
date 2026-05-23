@@ -1,4 +1,4 @@
-package basic.section2.class1;
+package basic.section.class1;
 
 public class ClassStart2 {
 
