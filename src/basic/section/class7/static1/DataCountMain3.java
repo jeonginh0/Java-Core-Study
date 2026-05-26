@@ -10,10 +10,16 @@ public class DataCountMain3 {
         System.out.println("A count = " + Data3.count);
 
         Data3 data2 = new Data3("B");
-        System.out.println("A count = " + Data3.count);
+        System.out.println("B count = " + Data3.count);
 
         Data3 data3 = new Data3("C");
-        System.out.println("A count = " + Data3.count);
+        System.out.println("C count = " + Data3.count);
+
+        // 추가
+        // 인스턴스를 통한 접근
+        Data3 data4 = new Data3("D");
+        System.out.println("D count = " + data4.count); // 정적 변수에 접근하면 메서드 영역에 들어 있는 변수를 쓴다.
+        // 위 코드는 추천하지 않음.
     }
 
 }
