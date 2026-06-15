@@ -1,12 +1,11 @@
-package intermediate2.class1.generic.test.ex3;
+package intermediate2.class1.generic.ex3;
 
-import intermediate2.class1.generic.animal.Animal;
+import intermediate2.class1.generic.animal.Dog;
 
-//Animal 또는 Animal의 자식들만 들어올 수 있다.
-public class AnimalHospitalV3<T extends Animal> {
-    private T animal;
+public class DogHospital {
+    private Dog animal;
 
-    public void set(T animal) {
+    public void set(Dog animal) {
         this.animal = animal;
     }
 
@@ -16,7 +15,8 @@ public class AnimalHospitalV3<T extends Animal> {
         animal.sound();
     }
 
-    public T bigger(T target) {
+    public Dog bigger(Dog target) {
         return animal.getSize() > target.getSize() ? animal : target;
     }
+
 }

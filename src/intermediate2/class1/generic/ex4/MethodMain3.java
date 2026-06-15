@@ -1,6 +1,5 @@
-package intermediate2.class1.generic.test.ex4;
+package intermediate2.class1.generic.ex4;
 
-import intermediate2.class1.generic.animal.Animal;
 import intermediate2.class1.generic.animal.Cat;
 import intermediate2.class1.generic.animal.Dog;
 

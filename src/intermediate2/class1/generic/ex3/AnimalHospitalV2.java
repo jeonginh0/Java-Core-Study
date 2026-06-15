@@ -1,4 +1,4 @@
-package intermediate2.class1.generic.test.ex3;
+package intermediate2.class1.generic.ex3;
 
 public class AnimalHospitalV2<T> {
     private T animal;

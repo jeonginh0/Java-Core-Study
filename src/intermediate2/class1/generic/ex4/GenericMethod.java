@@ -1,4 +1,4 @@
-package intermediate2.class1.generic.test.ex4;
+package intermediate2.class1.generic.ex4;
 
 public class GenericMethod {
 

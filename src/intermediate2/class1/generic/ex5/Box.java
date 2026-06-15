@@ -1,4 +1,4 @@
-package intermediate2.class1.generic.test.ex5;
+package intermediate2.class1.generic.ex5;
 
 public class Box<T> {
     private T value;
