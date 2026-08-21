@@ -1,4 +1,4 @@
-package intermediate2.class2.collection.stack;
+package intermediate2.class2.collection.deque;
 
 import java.util.Stack;
 
