@@ -1,0 +1,16 @@
+package advanced1.util;
+
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
+
+public class MyLogger {
+
+    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("HH:mm:ss.SSS "); //시, 분, 초, ms
+
+    public static void log(Object obj) {
+        String time = LocalTime.now().format(formatter);
+        System.out.printf("%s [%9s] %s\n", time, Thread.currentThread().getName(), obj);
+
+    }
+
+}
